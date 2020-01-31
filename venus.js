@@ -54,3 +54,19 @@ if(i%2===0){
     }
     i++;
 }
+//for loop
+for(vari=0; i <=50; i++){
+    console.log(i);
+    //while loop
+    var i = 1;
+    while (i<=50){
+        console.log (i)
+        i+=2;
+    }
+}
+//loop from 0 to 100
+var i=0;
+while (i<=100){
+    console.log(i);
+    i++;
+}
