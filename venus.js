@@ -70,3 +70,40 @@ while (i<=100){
     console.log(i);
     i++;
 }
+
+// Exercise Function
+
+function MyFunction (functionX, functionY) {
+return functionX + functionY;
+} 
+console.log("function output " + MyFunction(1,4));
+
+// Exercise Function 2
+
+function MyFunction2(A, B) {
+return A * B;
+} 
+console.log("function output" * MyFunction2 (2,4)); 
+
+// Exercise Function 3
+function MyFunction3(A, B) {
+    for (i = A; i<=B; i++){
+        console.log(i+" Hello");
+    }
+}
+
+MyFunction3 (5, 9);
+
+// Exercise Function 4
+
+var carColor ="green";
+function myFunction4(Red, Blue) {
+for (var i = 0; i<=Blue; i++){
+    var carColor = Red;
+       console.log (i + carColor);
+}
+}
+myFunction4("red",4);
+console.log(carColor);
+
+
