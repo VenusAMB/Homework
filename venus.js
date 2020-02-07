@@ -121,3 +121,48 @@ var grogeryItems = ["grapes", "blueberries", "pineapple", "pickles", "chickpeas"
 for (var i=0; i < grogeryItems.length; i++){
     console.log(grogeryItems[i]);
 } 
+//Exercise array2: revenge of the index
+//Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item
+var groceryItems = [
+["blueberries", 10],
+["pineapple", 16],
+["pickles", 14],
+["chickpeas", 17],
+["bananas", 18], 
+["tomatoes", 20],
+["cookies", 14],
+["cake", 19],
+["pie", 15]
+]
+    function sub(){
+        let groceryItems = document.getElementById("userImput").value;
+        for(let i = 0; i < groceryItems.lenth; i++){
+            if(groceryItems [i][1] < - 1);
+                groceryItems [i][1] == 0 }
+                    console.log(groceryItems[i]);
+                }  'else' 
+                console.log ("groceryItems, is out of stock!!");
+            if ("groceryItems [i][1] >= 1");
+                ("groceryItems [i][1]--") 
+                console.log(groceryItems[i]);
+                   ("else if groceryItems[i][1] == 0") 
+                    console.log("groceryItems, is out of stock!!!");
+                    console.log(grogeryItems[i]);
+                {
+                }
+            
+                
+    
+//function add(){
+    //let input = document.getElementById('userInput').nodeValue;
+    //inventory.forEach(function(array) {if(input == array [0]);
+    //}
+    //-   array[1] += 1;
+    //+   aray[1]++;
+    //console.log(array);
+//}
+//});
+//}
+
+
+
