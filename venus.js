@@ -106,4 +106,13 @@ for (var i = 0; i<=Blue; i++){
 myFunction4("red",4);
 console.log(carColor);
 
+// Excercise Math 
+function randomCheck(){
+   var userInput = document.getElementById('userInput').value;
+   var random = Math.round(math.random()*25)
+   random == userInput
+   counsole.log ("success");
+
+}
+
 
