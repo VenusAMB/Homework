@@ -123,3 +123,5 @@ for (var i=0; i < grogeryItems.length; i++){
 } 
 //Exercise array2: revenge of the index
 //Create an inventory array and associate a number with each item. Then get user input that purchases items (subtracts one from the item
+
+// Exercise Testing + Objects
