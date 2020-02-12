@@ -13,8 +13,8 @@
   h2 {color:purple;}
   p {color:orange;}
   </style>
-
- <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+ 
+  <link rel="stylesheet" src ="styles.css">
 
 </head>
 
@@ -26,26 +26,65 @@
   <h2 id="p2">This is a subtitle heading</h2>
   <p id="p3">This is my text</p>
 
-  <button onClick="randomCheck()">CLICK</button>
-  <!-- Exercise event listner -->
 
-<!DOCTYPE html>
-<html>
-  <body>
-    <h2>JavaScript addEventListner()</h2>
-    <p> We added an Event Listner.</p>
-
-    <button id="myBtn">Try Again</button>
+  <p>The button should be clicked to show date</p>
+  <button id="myBtn">CLICK</button>
+  
+  <p id="demo"></p>
+  <script>
+    document.getElementById("myBtn").addEventListener("CLICK", function(){
+      document.getElementById("demo").innerHTML = "Hope This Works!";
+      });
+    // function myFunction);
+    // function myFunction() {
+    //   alert ();
+    //   }
+      // document.getElementById("demo").innerHTML =
+      // Date();
+    
+  </script>
+   <!-- Exercise event listner -->
+    <h1>This is a heading too</h1>
+    <h2>This is a subtitle heading too<hp2>
+    <p> We added an Event Listner in the text.</p>
+   
 
     <script>
-    document.getElementById("myBtn").addEventListener("click", button[1]) {
-      alert("Hello World")
-      }
-<p> Example List:</p>
-<ul id="myList"><li>Pickles</li><li>Pototoes</li><li>Yummy</li></ul>
+    document.getElementById("myBtn").addEventListener("click", displayDate); 
+      
+    function displayDate() {
+      document.getElementById("demo").innerHTML = Date();
+    }
+   
+  </script>
+<!--<p> Example List:</p>
+// <ul id="myList"><li>Pickles</li><li>Pototoes</li><li>Yummy</li></ul>
 
-<button onclick ="myFunction()">Try Again</button>
-  
+// <button id="myBtn">Try Again</button>
+// <p id="demo"></p>
+
+//<button onclick ="myFunction()">Try Again</button>
+
+// let selectedTd
+// table.onclick = function()
+// <table>
+//   <thead>
+//     <tr> 
+//       <th>Class= Ingredient 1</th>
+//       <th>Class= Ingredient</th>
+//       <th>Class= Tasty Flavors<th>
+//     </tr>
+//       </thead>
+//       <tbody>
+//         <tr>
+//           <td>Class=Piclkes</td>
+//           <td>Class=Potatoes</td>
+//           <td>Class=Yummy</td>  
+//         </tr>
+//       </tbody>
+//     </table> 
+
+   
 
 // Will try more tomorrow --- Stuck! 
 
@@ -60,13 +99,7 @@
     //   arlist.add("Potatoes");
     //   arlist.add("Yummy");
 
-    //   System.out.println(arlist); 
-    
-
-    </script>
-
-  </body>
-</html>
+    //   System.out.println(arlist);  -->
 
    <script src="Wk2.js">
     </script>
