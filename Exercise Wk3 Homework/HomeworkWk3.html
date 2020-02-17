@@ -8,8 +8,9 @@
     <style>
         .contactinfo {
             width: 150px;
-            border: 1px solid black;
+            border: 1px solid black; 
         }
+        p.solid {border-style: solid;}
         /* div.a{
             word-wrap: wrap break-word;
         }  
@@ -19,30 +20,29 @@
             <footer>
                 <footer {
                 color:rgb(0, 255, 255) 
-            }*/
-            </div>
+            }
+            </div> */
         </style>
         <style>
             div p {
                 color: #310080
-            } */
+            } 
+            
+        </style>
+        <br>
+     
+    <br>
+        <title>HTML Reference</title>
+        <p style="color:green;"><h1>My title is green by color word</h1></p>
         </style>
     <br>
-    <title>HTML Reference</title>
-    <p style="color:green;"><h1>My title is green by color word</h1></p>
-    </style>
+        <title>{Come-in-for-Details}:</title>
+      <p style="color:blue"></p>
     <br>
-    <style>
-        <title>{Come in for Details}:</title>
-        <p style="color:"
-
-    </style>
-    <br>
-    <style>
-        <title>{Come in for Details}:</title>
-    </style>
-
+        <title>{Come in for Details}</title>
+    
     <link rel="stylesheet" type="text/css" href="HomeworkWk3.css"> 
+
 </head>
 <body>
     <!-- <h1>The word-wrap: word-break:<h1>
@@ -50,7 +50,11 @@
         Myveryveryveryextraextralongword. The long word will break and wrap to the next line.</h1>div>
     </h1> -->
   <header>
-      <h2>This is my heading</h2>
+      <p>
+          <h2>This is my heading</h2>
+          <p class="solid"></p>
+      </p>
+     
   </header>
 
   <!--<div id="myDiv">
@@ -74,14 +78,14 @@
  </div>
  <p>If you want to try a Free Lesson then click on <a id="myAnchor" href="https://www.pimsleur.com/">pimsleur</a></p>
 
-       <p id="demo"></p>
+       <!-- <p id="demo"></p>
     <script>
         function myFunction(){
             var x =
             document.getElementById("myAnchor").id;
             document.getElementById("demo").innerHTML =x;
         }
-    </script>
+    </script> -->
  <br>
  <h3> This is my subheading</h3>
     <div>
@@ -141,8 +145,13 @@
       <br>
       <div class="text">
           <a href="TextDocwk3.txt">Click Here for Text File</a>
-
-         
+          <br>
+          <div class="text">
+            <button onclick="myFunc()">Click for Help </button>
+            <p id="demo"></p>
+            
+            </div>
+           
       </div>
       <br>
   
@@ -153,7 +162,9 @@
     </style>
             
     <h5>Come in for Details</h5>
-    <p>Spanish classes start on the first Thursday of each month.</p>
+    <p>Spanish classes start on the first Thursday of each month.
+
+    </p>
 </div>
 <section>
     <article class ="post">
@@ -177,15 +188,34 @@
     </h1>
     <p><strong>Note:</strong> More text about German Classes, our favorite website <a href="https://www.pimsleur.com">Read More</a> and what you will learn.
     </p>
-</article>
+    <p>
+    <div class="center">   
+   
+        <div id="container">
+            <h2>mark your calendar</h2>
+            <img src="https://i.pinimg.com/originals/8f/b0/d8/8fb0d8cbcb9f43c7090df3f1dce15cb3.png" width="600", height=400>
+        </div>
+     
+    </div>
+    </p>
+    </article>
 </section>
 <br>
   </article>
   <footer id="main-footer">
     <div>
-    <p>Copyrogjt & copy; February 14, VBA HomeworkWk3</p>
+    <p>Copyright & copy; February 14, VBA HomeworkWk3</p>
     </div>
     </footer>
+    <!-- <script>
+        function myFunc() {
+            var c = document.body.children;
+            var txt = "Call for assistance 1-800-222-1234";
+            document.getElementById("demo").innerHTML = 'txt';
+        }
+        
+    </script> -->
+    <script src="HomeworkWk3.js"></script>
  </body>
 </html>
 <!--Exercise Web page steps 1-5 complete but started ---Not ready to be checked -->
