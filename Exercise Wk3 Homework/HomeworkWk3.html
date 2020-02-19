@@ -66,7 +66,33 @@
             font-family: Arial, Helvetica, sans-serif;
         }
     </style>
+    <style>
+        #grad1 {
+            height:200px;
+            background-image: linear-gradient(red, orange, yellow);
+        }
+    </style>
+    <style> 
+    thead {color:seagreen;}
+    tbody {color: firebrick;}
+    tfoot {color:slateblue;}
+    table, th, td {
+        border: 2px solid purple;
+    }
+    </style>
+    <style>
+                   table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
     
+            td, th {
+                border: 1px solid purple;
+                text-align: left;
+                padding: 8px;
+            } 
+    </style>
 
 </head>
 <body>
@@ -89,7 +115,7 @@
   </div>
   getElementsById and getElementsByClassName -->
   
-     <div></h3>Discover the Seceret to Learning a Foreign Language</h3></div>
+     <div style="background-color:darkseagreen"></h3>Discover the Seceret to Learning a Foreign Language</h3></div>
   <span><p id="par1">
            
       
@@ -97,10 +123,9 @@
         width: 50;
         height: 100;
     }><h5>Learn with Us</h5>
-    <a id="myNachor"
+    <a id="myAnchor"
     href="http://www.pimsleur.com">Tutorials</a>
-    <button onclick="myFunction"()">Try it</button>
-    <p id="demo"></p>
+    <p id="demo"></div></p>
     <script>
         function myFunction() {
             var x = 
@@ -128,6 +153,8 @@
     Molestie nunc non blandit mass
  </p>
 
+ <div id="grad1"></div>
+
      <aside>
         <h4>Foreign Languages Made Easy</h4><img src="https://www.adl.org/sites/default/files/styles/open_graph_image_1200_x_628_/public/2018-04/teenage-school-kids-smiling-istock-826212368.jpg?itok=kz875Tpe" width="200">
         <p><span id="Cap1">L</span>earning a foreign language can be easy when given the correct tools.  Lorem ipsum sit amet facilisis magna etiam tempor orci eu lobortis. Habitant morbi tristique senectus et netus. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim.
@@ -154,7 +181,7 @@
     </script> -->
  <br>
  <h3> This is my subheading</h3>
-    <div>
+    <div style="background-image: url(https://thumbs.dreamstime.com/b/spanish-german-flag-pair-desk-over-defocused-background-d-image-165835969.jpg);">
         <span><p id="par2">
     Lorem ipsum sit amet facilisis magna etiam tempor orci eu lobortis. Habitant morbi tristique senectus et netus. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim.
     
@@ -261,7 +288,96 @@
             <h2>mark your calendar</h2>
             <img src="https://i.pinimg.com/originals/8f/b0/d8/8fb0d8cbcb9f43c7090df3f1dce15cb3.png" width="600", height=400>
         </div>
+        <div>
+            Nested unordered list
+        <ul> 
+            <li>List Item 1</li> 
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        </div>
+        <div>
+            Nested ordered list     
+        
+        <ol> 
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+        </div>
      
+    <h2>Language Classes and Instructors</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Instructor</th>
+            <th>Mr. Dunken</th>
+            <th>Mrs. Young</th>
+            <th>Ms. Jessica</th>
+            <th>Mr. Ernest</th>   
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Spanish Class</td>
+            <td>Part 1 9am-12pm</td>
+            <td>Part 2 2pm-5pm</td>
+            <td>Tutor Time 7pm- 8pm</td>
+            <td>N/A</td>
+        </tr>
+    
+        <tr>
+            <td>German Class</td>
+            <td>Part 2 9am-12pm</td>
+            <td>Part 1 2pm-5pm</td>
+            <td>N/A</td>
+            <td>Tutor Time 7pm- 8pm</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Ask how to get 15% discount</td>
+            </tr>
+            </tfoot>            
+    </table>
+    <figure>
+    <img src="https://www.planetware.com/photos-large/D/germany-black-forest.jpg" alt="Germany"
+    width="500" height="333">
+    <figcaption>Fig.1 - Germany.
+    </figcaption>
+    </figure>
+    <figure>
+    
+    <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/09/Barcelona.jpg" alt="Spain"
+    width="500" height="333">
+    <figcaption>Fig.2 - Spain
+    </figure>
+    </figcaption><br>
+
+    
+
+<h2>Text Message Alerts to #SpeakSpanish / #SpeakGerman</h2>
+<form action="/action_page.php">
+<label for="fname">First name:</label>
+<br>
+<input type="text" id="fname"
+    name="fname" value="first name here">
+    <br>
+    <label for="lname">Last name:</label>
+    <br>
+<input type="text" id="lname"
+    name="lname" value="last name here">
+    <br>
+    <label for="cell">Mobile Number</label>
+    <br>
+<input type="text" id="cell"
+    name="cell" value="mobile number here">
+    
+    <br>
+    <input type="submit" value="Submit">
+</form>
     </div>
     </p>
     </article>

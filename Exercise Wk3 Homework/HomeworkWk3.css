@@ -52,3 +52,8 @@ h6 {
 #Cap1{
     font-size: 100px
    }
+#grad1 {
+    background-color: red;
+    height:200px;
+    background-image: linear-gradient(red, orange, yellow);
+}
