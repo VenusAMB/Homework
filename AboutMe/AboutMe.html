@@ -1,42 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="AboutMe.css">
-<title>About Me Website</title>
+        <link rel="stylesheet" href="AboutMe.css">
+    <title>About Me Website</title>
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1"> 
 
 
- 
+
 </head>
 
 <body>
-
+    
     <h1> Welcome to My World </h1>
-    <div class="parent">
-        <div class="child">
-            <div class="grandchild">
 
-            </div>
 
-        </div>
-
+    <div class="row">
+        <div class="column1">
+    <h2>Column 1</h2>
+    <p>Add text here. Just Text. The National Early Childhood Inclusion Institute is one of the premier educational
+         opportunities for anyone involved in the care and education of young children with special needs in inclusive settings.
+         Dozens of world-class experts, dozens of groundbreaking sessions, 
+         free courses for CEUs—and an enduring impact. For 20 years, the Inclusion Institute has drawn people from 
+         across the country and around the globe to Chapel Hill to learn about the latest research findings, models, 
+         and resources to guide inclusive policy, professional development and practice; to develop collaborative 
+         relationships and cross-agency systems to support early childhood inclusion; and to have the opportunity to meet,
+         learn from and problem solve with peers. 
+    </p>
     </div>
-<div class="relative">
-    <p>Greetings, my name is Venus Brown and I am consistent with reinventing myself.
-Over the years I have had the opportunity to travel internationally while raising
-a family and going to school. </div>
+
+
+
+    
+        <div class="column2">
+    
+    <h2>Column 2</h2>
+    <p>Some more text here. Just Text. The National Early Childhood Inclusion Institute is one of the premier educational
+        opportunities for anyone involved in the care and education of young children with special needs in inclusive 
+        settings. Dozens of world-class experts, dozens of groundbreaking sessions, free courses for CEUs—and an
+        enduring impact. For 20 years, the Inclusion Institute has drawn people from across the country and around 
+        the globe to Chapel Hill to learn about the latest research findings, models, and resources to guide inclusive
+        policy, professional development and practice; to develop collaborative relationships and cross-agency systems 
+        to support early childhood inclusion; and to have the opportunity to meet, learn from and problem solve with peers. 
+    </p>
+    </div>
+    </div>
+
+    
+    <div class="parent">
+        <h2>Parent</h2>
+        <div id="test1"></div>
+        <p id="exam">For 20 years, the Inclusion Institute has drawn people from across the country and around 
+            the globe to Chapel Hill to learn about the latest research findings, models, and resources to guide inclusive
+             policy, professional development and practice; to develop collaborative relationships and cross-agency systems 
+             to support early childhood inclusion; and to have the opportunity to meet, learn from and problem solve with peers.
+            </p><img class="img" src="reaching hands.jfif"><p><button onclick="window.location.href ='https:www.teach.com';">Push Button</button></p>
+        </div>
+        
+    </div>
+
+    <div class="relative">
+        <h2>How I Started</h2>
+        <p id="para1">Greetings, my name is Venus Brown and I am consistent with reinventing myself.
+            Over the years I have had the opportunity to travel internationally while raising
+            a family, working full-time from home and going to school.
+        </p>
+    </div>
+        
 <div class="absolute">
-My career started in health care as a paramedic in Philadelphia, PA and went into 
+    <h2>Absolute</h2>
+    <p id="para2">My career started in health care as a paramedic in Philadelphia, PA and went into 
 Early Childhood Education as soon as my family started to grow. I have worked in 
 mortgage industry as a HUD Certified Housing and Mortgage Processor. Now I am
 embarking on my latest advernture with Augusta Technical College for Coding Bootcamp.
-Wish me luck!</p>
- </div>  
- <div>
-     <p>
+Wish me luck!
+</p>
+</div>
+
+ <div class="columnA">
+    <h2>Column A</h2>
+    <p>***Some more text here. Just Text. The National Early Childhood Inclusion Institute is one of the premier educational opportunities for anyone involved in the care and education of young children with special needs in inclusive settings. Dozens of world-class experts, dozens of groundbreaking sessions, free courses for CEUs—and an enduring impact. For 20 years, the Inclusion Institute has drawn people from across the country and around the globe to Chapel Hill to learn about the latest research findings, models, and resources to guide inclusive policy, professional development and practice; to develop collaborative relationships and cross-agency systems to support early childhood inclusion; and to have the opportunity to meet, learn from and problem solve with peers. 
+    </p>
+</div>
+
+ 
+ <div id="test2"></div>
+     <p id=para4>
          More text will be placed here in the future.
      </p>
+     
  </div> 
+ 
+ <script>
+    function myFunction() {
+        var testDiv =document.getElementById("test1");
+
+        document.getElementById("demo").innerHTML = testDiv.offsetParent;
+    }
+</script>
+
 </body>
 
 </html>
-
