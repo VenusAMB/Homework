@@ -7,7 +7,29 @@
     <meta name="viewport"
     content="width=device-width, initial-scale=1"> 
 
+    <style>
+    .buttonTwo {
+        background-color: purple;
+        border-color: rebeccapurple;
+        border-radius: 25px;
+        padding: 35px 35px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .buttonTwo:hover {
+        background-color: green;
+    }
 
+    @keyframes sqRoll {
+        0% { background-color: blueviolet; left:0px; top:0px;}
+        25% {background-color: blue; left: 200px; top:0px;}
+        50% {background-color: yellow; left:200px; top:200px;}
+        75% {background-color: green; left:0px; top:0px;}
+    }
+    
+</style>
+
+<script src="AboutMe.js"></script>
 
 </head>
 
@@ -18,6 +40,7 @@
 
     <div class="row">
         <div class="column1">
+            
     <h2>Column 1</h2>
     <p>Add text here. Just Text. The National Early Childhood Inclusion Institute is one of the premier educational
          opportunities for anyone involved in the care and education of young children with special needs in inclusive settings.
@@ -28,6 +51,7 @@
          relationships and cross-agency systems to support early childhood inclusion; and to have the opportunity to meet,
          learn from and problem solve with peers. 
     </p>
+    <button type="button" onclick="alert('Greetings')">Click Me!</button></div>
     </div>
 
 
@@ -44,7 +68,9 @@
         policy, professional development and practice; to develop collaborative relationships and cross-agency systems 
         to support early childhood inclusion; and to have the opportunity to meet, learn from and problem solve with peers. 
     </p>
-    </div>
+   
+   <div id="buttonTwo" tabindex="0" role="button" aria-pressed="true">Hover Changes</div>
+
     </div>
 
     
@@ -55,7 +81,8 @@
             the globe to Chapel Hill to learn about the latest research findings, models, and resources to guide inclusive
              policy, professional development and practice; to develop collaborative relationships and cross-agency systems 
              to support early childhood inclusion; and to have the opportunity to meet, learn from and problem solve with peers.
-            </p><img class="img" src="reaching hands.jfif"><p><button onclick="window.location.href ='https:www.teach.com';">Push Button</button></p>
+            </p><img class="img" src="reaching hands.jfif"><p><button id="buttonThree" onclick="window.location.href ='https:www.teach.com';">Push Button</button></p>
+            <button id="buttonFour" type="button" onclick="alert('My Family')">Click Me!</button>
         </div>
         
     </div>
@@ -76,6 +103,7 @@ mortgage industry as a HUD Certified Housing and Mortgage Processor. Now I am
 embarking on my latest advernture with Augusta Technical College for Coding Bootcamp.
 Wish me luck!
 </p>
+
 </div>
 
  <div class="columnA">
@@ -92,12 +120,15 @@ Wish me luck!
      
  </div> 
  
- <script>
+<script>
     function myFunction() {
         var testDiv =document.getElementById("test1");
 
         document.getElementById("demo").innerHTML = testDiv.offsetParent;
     }
+
+
+
 </script>
 
 </body>
