@@ -1,0 +1,14 @@
+API - some one elses's code that we interact with Faker 
+API - how to use on npm (install with node)*
+Faker data
+Lots of functions/information Info is stored in objects, use object notation to get info 
+CDN-content delivery network
+Profile card- a way to organize a persons information
+----Duplicated---- 
+API - some one else’s code that we interact with 
+Faker API - how to use
+On npm (install with node) * 
+Fake data
+Lots of functions/information Info is stored in objects, use object notation to get info
+CDN- content delivery network
+Profile card- a way to organize a persons information

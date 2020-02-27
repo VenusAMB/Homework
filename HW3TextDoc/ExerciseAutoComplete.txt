@@ -1,0 +1,23 @@
+Auto complete -
+Takes user input and finishes/corrects input
+Need a way to get input
+-need html and input 
+List of terms -
+Mint
+Chocolate
+Vanilla 
+Strawberry
+Rage
+Moose tracks 
+Need js 
+Need to compare user input to list of terms on each key stroke 
+If input is a number or a special character 
+Tell the user invalid input - this needs to look different than our suggestions 
+If it is valid input (a letter/letters)
+If the letter/ word is in the list
+1. Show suggestions 
+2. let user click the option they want
+3. Completes the word for the user
+4. Lets them submit
+If it’s not in the list 
+Nothing

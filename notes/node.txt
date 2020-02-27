@@ -1,0 +1,49 @@
+<!--Node.js
+Asynchronous Programing - allows code to run out of order
+
+Ex:
+ Function that does stuff() {
+     ...
+ }
+ Then we have a while loop ( while download is not done){
+     do stuffreturn "download done"
+ }
+ show progress bar or prompt to do survey
+    **flaviocopes.com/javascript-callbacks
+    ***round robin is not Node.js - it is when computers do 5sec cycles 
+    to appear Asynchronous when they are not
+i/o is input/output
+Node.js introduced a non-blocking i/o which mean that input can be placed in
+and output can come out while still waiting on something else 
+
+Callback - Like event listeners
+- a function that passed as a value (param) to another function and 
+will only be executed when the event happens
+
+Ex: function + waits for the event
+
+document.getElementById('button').addEventListener('click', ()=> {
+    //item clicked
+})
+
+XHR requests also accept a call back, in this example by assigning a
+function to a property that wil be called when a particlar event 
+occurs (in this case, the state of the request changes):
+
+Ex: 
+const xhr = new XMLHttpRequest()
+xhr.onreadystatechange = () => {
+  if (xhr.readyState === 4) {
+    xhr.status === 200 ? console.log(xhr.responseText) : console.error('error')
+  }
+}
+xhr.open('GET', 'https://yoursite.com')
+xhr.send()
+
+run time error - runs but not correctly 
+
+function hoisting - the ability to use and assign objects(functions and variables)
+before declaring them
+
+NODE = npm modules (node package modules)
+

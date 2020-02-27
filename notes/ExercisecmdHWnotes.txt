@@ -1,0 +1,43 @@
+Exercise cmd
+Exercise wait
+
+
+Example:
+under callbacks.js (async JS Crash Course - Callbacks, Promises, Async Await Youtube)
+create array with two objects 
+const post = [
+    {title: 'Post One', body: 'This is post one'},
+    {title: 'Post Two', body: 'This is post two'}
+];
+
+
+then function
+
+function getPosts() {
+    setTimeout(()=> {
+        let output ='';
+        post.forEach((post, index) =>{
+            output += `<li>${post.title}</li>`;
+        });
+        document.body.innerHTML = output;
+
+    }, 1000);
+    
+}
+
+function createPost(post, callback) {
+    setTimeout(( => {
+        post.push (post);
+        callback();
+    }, 2000);
+    )
+})
+
+Now Call function
+getPost();****Remove and add getPost to createPost and callback to function createPost
+
+createPost({ title: 'Post Three', body: 'This is post three'}, getPosts);
+
+
+
+promises.jsindex.html

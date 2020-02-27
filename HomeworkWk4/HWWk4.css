@@ -1,0 +1,13 @@
+@import
+url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEbttNV9yvAWwEmOv_xQUbWhSmrroyNXv614vKlG-1PJ6Jcern)
+
+element; class fullscreen {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEbttNV9yvAWwEmOv_xQUbWhSmrroyNXv614vKlG-1PJ6Jcern")
+    height: 25vh
+    width: 50vw
+    border: 1px solid purple;
+    position: relative
+    background-size: cover
+    background-repeat: no-repeat
+    }
+  
