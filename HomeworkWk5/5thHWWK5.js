@@ -1,7 +1,7 @@
-const input = require(`./input.js`);
-const output = require(`./output.js`);
+const input = require(`./3rdHWWK5`);
+const output = require(`./4thHWWK5.js`);
 
-console.log(`Type 'exit` @ anytime to exit\n\n`);
+console.log(`Type 'exit' @ anytime to exit\n\n`);
 input.prompt(`What is your name?\n`);
 input.in(output.out);
 

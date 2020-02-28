@@ -5,11 +5,11 @@ const rl = readline.createInterface({
     terminal: false
 });
 
-const input = require('./input');
+const input = require('./3rdHWWK5.js');
 
 module.exports = {
     out(data) {
-        console.log(Your name is ${data}.`);
+        console.log(`Your name is ${data}.`);
         input.prompt(`\nWhat is your name?\n`);
     }
     }
