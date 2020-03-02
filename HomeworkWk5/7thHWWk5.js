@@ -18,14 +18,14 @@ http.createServer(function (req, res) {
 // Make it a web server so that when a browser navigates to 
 // "localhost:8080/about" you server a html web page.
 
-var http = require('http');
-http.createServer(function (req, res) { 
-   res.writeHead(200, {'Content-Type': 'text/html'}); 
+// var http = require('http');
+// http.createServer(function (req, res) { 
+//    res.writeHead(200, {'Content-Type': 'text/html'}); 
 
-   res.write('cbc8 says hello!');
+//    res.write('cbc8 says hello!');
       
-    res.end();
+//     res.end();
 
-}).listen(8080);
+// }).listen(8080);
 
 

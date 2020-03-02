@@ -3,8 +3,11 @@
 // "localhost:8080/about" you server a html web page.
 
 var http = require('http');
+
+
+
 http.createServer(function (req, res) { 
-   res.writeHead(500, {'Content-Type': 'text/html'}); 
+   res.writeHead(100, {'Content-Type': 'text/html'}); 
 
    res.write('cbc8 says hello!');
       
