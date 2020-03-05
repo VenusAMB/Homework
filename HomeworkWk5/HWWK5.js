@@ -24,3 +24,9 @@ function myFunction(){
   }
   
   myFunction();
+
+/**
+ * The first part of this is good however, I did want to see you export some functionallity
+ * and require it in another file. I just made 2 additional files to demo this check it out 
+ * they are appExport.js and appImport.js.
+ */

@@ -41,6 +41,10 @@ function second() {
     return promise;
 }
 
+/**
+ * Promise looks good! Though I'm not sure what we are doing with the myFunction() function
+ * but it works and theres nothing wrong with it, just confused about it's existance. 
+ */
 second().then(function (resolve) {
     console.log(resolve);
     first();
@@ -56,7 +60,13 @@ console.log(res);
 
 myFunction();
 
-export function functionName(){HWWK5.js}
+/**
+ * You want to seperate these into seperate files and remember that we need to use that 
+ * module.exports, export isn't valid and will throw errors in this use case. I went ahead
+ * and commented it out to check your other work. If you want to seperate it into to files 
+ * check out appImport.js and appExport.js to see how you can accomplish that.
+ */
+//export function functionName(){HWWK5.js}
 
 
 
