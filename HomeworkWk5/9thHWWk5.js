@@ -19,3 +19,7 @@ else if(url ==='/about') {
 });
 //created route - can be used for differnt web pages on website
 //endpoint = '/' and '/about' and it is what goes on the end of url
+
+/**
+ * Awesome with the server home page and about page worked great!
+ */
